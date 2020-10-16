@@ -1,0 +1,30 @@
+
+body{
+	font-family: 'Caveat', cursive;
+	text-align: center;
+	background-color: gold;
+
+}
+.wrapper{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(3, 100px);
+	width: 360px;
+	margin: 50px auto;
+	line-height: 100px;
+
+}
+.cell{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border:	1px solid #000000;
+	box-shadow: 0px 0px 0px 1px black;
+	transition: all 1s;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 80px;
+	text-align: center;
+}
+.cell:hover{
+	transform: scale(1.1);
+}
